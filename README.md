@@ -1,0 +1,2 @@
+Modified Linux kernel to hide a sneaky process which can change the /etc/passwd file. By replacing the open(), read() and getdents() system
+call, the installed kernel model, the process binary file and the process id are hidden from commands like ‘ls’, ‘lsmod’, ‘ps’ and ‘find’.
